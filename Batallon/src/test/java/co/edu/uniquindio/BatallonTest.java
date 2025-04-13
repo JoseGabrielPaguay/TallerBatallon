@@ -152,7 +152,7 @@ class BatallonTest {
         Batallon batallon = new Batallon("Bravo", "B1");
         batallon.liberarSoldadosDeMision(mision);
 
-        assertEquals(1.0, s1.getDisponible(), 0.0);
+        assertEquals(1.0, s1.getDisponible());
         assertEquals(1.0, s2.getDisponible(), 0.0);
         LOG.info("Fin del metodo testLiberarSoldadosDeMision");
     }

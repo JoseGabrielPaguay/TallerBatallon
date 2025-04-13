@@ -302,6 +302,7 @@ public class Batallon {
         return false;
     }
 
+    //Métodos soldado
     public boolean asignarSoldadoAMision(Soldado soldado, Mision mision) {
         if (soldado.estaDisponible()) {
             mision.getListPersonal().add(soldado);
